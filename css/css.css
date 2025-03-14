@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* إعدادات الصفحة */
+body {
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #0b3d91, #1c1c3c); /* لون السماء */
+  height: 100vh;
+  background-image: url(/img/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+button:hover {
+    background-color: #ffeb3bf6;
+}
+
+li{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.exst:hover {
+    padding: 10px;
+    /* color: #f1e9e9; */
+    /* border: 1px solid; */
+    font-size: 20px;
+    border-radius: 50%;
+    /* height: 10px; */
+    font-weight: 900;
+    background-color: #f31d0d8f;
+}
+
+  
+  
+  
