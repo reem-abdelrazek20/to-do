@@ -10,14 +10,23 @@
     
 </head>
 <body>
- 
- 
 
-<div>
+ <div class="md:flex items-center justify-around">
+<div id="clock"   class="date text-[25px] font-extrabold m-[30px] border border-black p-[10px] rounded-[10px]"></div>
+<div id="dateDisplay"  class="date text-[25px]  font-extrabold m-[30px] border border-black p-[10px] rounded-[10px]"></div>
+<label class="switch ms-5">
+  <input type="checkbox" id="theme-toggle">
+  <span class="slider"></span>
+</label>
+ </div>
+ 
+<div class="container">
     <div class="message"></div>
   <form action="#" class="flex justify-center mt-[120px] mx-[20px]">
-    <input type="text" class="input mr-[30px] p-[16px] border-none rounded-[18px] w-[90%]">
-    <button class="add border border-black rounded-[15px] p-[15px] bg-[#ffeb3b2e] text-white text-[16px] uppercase w-[100px]" >add</button>
+   
+    <input type="text" class="input mr-[30px] p-[16px] border-none rounded w-[90%]">
+    
+    <button class="add  text-white text-[16px] uppercase p-[10px] bg-[#ff9800] text-white border-none cursor-pointer rounded ml-[5px]" >add</button>
     
    </form>
    <ul class="list-none text-white mt-[50px] mx-[58px] text-[20px] font-extrabold"></ul>
